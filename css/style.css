@@ -1,0 +1,241 @@
+
+p{
+    color: #3d3d3d;
+    margin-bottom: 30px;
+}
+
+h1{
+    color:#3d3d3d
+}
+h4{
+    color:#3d3d3d;
+    padding: 0;
+}
+form{
+    display: block;
+    margin: 0;
+}
+input, textarea{
+    display: block; 
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-family: "Libre Baskerville","Georgia",serif;
+    color: #3d3d3d;
+    line-height: 1.5;   
+    touch-action: manipulation; 
+    box-sizing: border-box;
+    border: none;       
+    border-bottom: 1px solid #8b8b8b;
+    width: 100%;
+    margin-bottom: 19.44444px;
+    -webkit-appearance: none;   
+    font-family: "","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-size: 0.85714em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    padding-left: 0;
+
+}
+textarea{
+    display: block;
+    border: 1px solid lightgray;
+    overflow: auto;
+    -webkit-appearance: none;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    min-height: 100px;
+
+}
+select{
+    display: block;
+    width: 100%;
+    margin-bottom: 19.44444px;
+    text-transform: uppercase;
+    font-size: 0.85714em;
+    font-family: "","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    border: 1px solid #3d3d3d;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+
+option{
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}   
+
+input:focus, textarea:focus {
+    border: none;       
+    border-bottom: 1px solid #8b8b8b;   
+    outline: none;
+}
+.btn{
+    font-size: 12px;
+    letter-spacing: .24em;  
+    display: inline-block;
+    width: auto;    
+    margin-bottom: 19.44444px;
+    cursor: pointer;
+    color: #fff;
+    border-color: #6394be;
+    background-color: #6394be;
+}
+
+label{
+    color:gray;
+    font-family: "GothamBook",Verdana,Helvetica,Arial,sans-serif;
+    font-size: 0.85714em;
+    letter-spacing: .24em;
+    line-height: 2;
+    margin-bottom: 2px;
+}
+
+#iframestr{
+    float:right;
+    top:750px;
+}
+
+#main_contact{
+    float:left;
+    top:750px;
+}
+
+#main{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top:75px;
+}
+
+tr{
+    
+    border-bottom : 1px solid gray;;
+}
+
+table{
+    
+    margin-left: 30%;   
+    margin-right: 30%;
+    text-align: center;
+    color:#3d3d3d
+}
+
+#bgimage{
+    width:100%;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('../images/bgimage.jpg');
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.fixed-header-top{
+    position:fixed;
+    background-color:darkslategrey; 
+    width:100%; 
+    height: 25px;
+    
+}
+
+
+.fixed-header-menu{
+    position:fixed;
+    opacity: 1 ; 
+    width:100%; 
+    height: 40px;
+    margin-top: 25px;   
+    background-color: black;
+}
+.fixed-header-top > p {
+    color:white;
+    font-weight: bold;
+}
+.fixed-header-menu  a {
+    color:white;
+    font-weight: bold;
+    width:150px; 
+}
+a{
+    color:#3d3d3d
+}
+.fixed-header-menu:hover{
+    background-color: white;
+    opacity: 1;
+}
+
+.fixed-header-menu:hover a{
+    color:black;
+
+}
+
+
+#image{
+    background-color: white;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+h1~p{
+    text-align: justify;    
+}
+
+#image_content{
+  
+    text-align:center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+#image_content p{
+    color:black;
+    font-size: 32px;
+    opacity: 0;
+    
+}
+
+#image_content a{
+    border: 1px solid white;
+    color:white;
+    font-size: 32px;
+}
+
+#helloworld{
+    top:250px;
+    vertical-align: middle;
+}
+
+#bestseller_div {
+      display: flex;
+      justify-content: space-around;
+         width:100%; 
+}
+
+.product_div {
+    display: flex;
+    justify-content: space-around;
+       width:100%; 
+}
+#best_seller>input{
+   border:none;
+}
+
+#best_seller{
+    text-align: center;
+}
